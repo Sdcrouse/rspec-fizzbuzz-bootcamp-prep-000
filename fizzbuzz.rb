@@ -1,5 +1,7 @@
+require 'pry'
 def fizzbuzz(int)
   # This also works for negative numbers!
+  binding.pry
   
   if int % 15 == 0 # I could also say int % 3 == 0 && int % 5 == 0 
     "FizzBuzz"
