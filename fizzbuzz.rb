@@ -9,5 +9,5 @@ def fizzbuzz(int)
   elsif int % 5 == 0 
     int = "Buzz"
   end
-  binding.pry
+  #binding.pry
 end
