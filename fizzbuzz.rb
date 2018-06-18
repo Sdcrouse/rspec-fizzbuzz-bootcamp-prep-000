@@ -10,5 +10,4 @@ def fizzbuzz(int)
     int = "Buzz"
   end
   
-  int
 end
