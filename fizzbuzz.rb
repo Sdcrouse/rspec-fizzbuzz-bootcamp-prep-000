@@ -1,4 +1,3 @@
-require 'pry'
 def fizzbuzz(int)
   # This also works for negative numbers!
   
@@ -9,5 +8,4 @@ def fizzbuzz(int)
   elsif int % 5 == 0 
     int = "Buzz"
   end
-
 end
